@@ -1,15 +1,13 @@
 package com.ajavacode.hngbackendstage1task.api;
 
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api/v1")
 public class ProfileController {
 
 
-    @GetMapping("/profile")
+    @GetMapping("/api/v1/profile")
     private String userInfo() {
 
         Profile profile = new Profile();
