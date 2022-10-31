@@ -6,10 +6,9 @@ import lombok.Setter;
 @Getter
 @Setter
 public class Profile {
-
-    private String slackUsername = "Ajava";
-    private Boolean backend = true;
-    private Integer age = 28;
-    private  String bio = "My name is Anakhe Ajayi, I'm learning Java everyday and I love Jesus.";
+    private String slackUsername;
+    private Boolean backend;
+    private Integer age;
+    private  String bio;
 
 }
